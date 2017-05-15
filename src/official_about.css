@@ -1,0 +1,131 @@
+.about-menu-wrap .about-news {
+  width: 885px;
+  padding: 30px;
+  font-family: '微软雅黑';
+}
+.about-menu-wrap .about-news .about-news-activity {
+  float: left;
+  width: 395px;
+  height: 205px;
+  text-align: center;
+  border: 1px solid #f4f7f9;
+}
+.about-menu-wrap .about-news .about-news-activity .news-activity-img {
+  display: block;
+  width: 395px;
+  height: 150px;
+  border: none;
+}
+.about-menu-wrap .about-news .about-news-activity .news-activity-link {
+  font-size: 14px;
+  line-height: 50px;
+  color: #000;
+  text-decoration: none;
+}
+.about-menu-wrap .about-enterprise-culture {
+  width: 885px;
+  padding: 30px;
+  font-family: '微软雅黑';
+}
+.about-menu-wrap .about-enterprise-culture .enterprise-culture-content {
+  width: 450px;
+  margin: 0 auto;
+}
+.about-menu-wrap .about-enterprise-culture .enterprise-culture-content .about-common-title {
+  text-align: center;
+  font-size: 24px;
+}
+.about-menu-wrap .about-enterprise-culture .enterprise-culture-content .title-vision {
+  margin-top: 50px;
+}
+.about-menu-wrap .about-enterprise-culture .enterprise-culture-content .enterprise-mission {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.about-menu-wrap .about-enterprise-culture .enterprise-culture-content .enterprise-mission li {
+  margin-bottom: 20px;
+  color: #a1a8af;
+}
+.about-menu-wrap .about-contact {
+  width: 885px;
+  padding: 30px;
+  font-family: '微软雅黑';
+}
+.about-menu-wrap .about-contact .about-contact-title {
+  font-size: 24px;
+  margin: 0  auto;
+  text-align: center;
+}
+.about-menu-wrap .about-contact .about-contact-name {
+  color: #f63;
+  font-size: 16px;
+  line-height: 20px;
+}
+.about-menu-wrap .about-contact .about-contact-name img {
+  vertical-align: middle;
+}
+.about-menu-wrap .about-contact .about-contact-msg {
+  color: #999;
+  font-size: 14px;
+}
+.about-menu-wrap .about-contact .about-contact-fgs-content {
+  overflow: hidden;
+}
+.about-menu-wrap .about-contact .about-contact-fgs-content .about-contact-fgs .contact-fgs {
+  float: left;
+  width: 130px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #999;
+  margin-right: 35px;
+}
+.about-menu-wrap .about-contact .about-contact-fgs-content .about-contact-fgs .contact-fgs:hover {
+  color: #f63;
+  cursor: pointer;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly {
+  position: relative;
+  margin-top: 45px;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly .fgs-exactly-content {
+  padding: 0;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly .fgs-exactly-content li {
+  width: 820px;
+  height: 105px;
+  list-style: none;
+  padding-top: 30px;
+  border: 1px solid #f63;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly .fgs-exactly-content li .fgs-name {
+  position: absolute;
+  top: -20px;
+  left: 355px;
+  margin: 0;
+  font-size: 16px;
+  padding: 10px 25px;
+  height: 20px;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #f63;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly .fgs-exactly-content li .fgs-name .name-circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly .fgs-exactly-content li .fgs-name-msg {
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+}
+.about-menu-wrap .about-contact .contact-fgs-exactly .fgs-exactly-content .about-disappear {
+  display: none;
+}

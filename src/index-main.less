@@ -1,0 +1,264 @@
+
+//居中banner
+
+
+
+
+
+//右侧悬浮栏
+
+
+//底部
+.footer-wrap{
+  width: 100%;
+  background-color: #2a2c45;
+  color: #f2dede;
+  text-align: center;
+  a {
+  color: #f2dede;
+  text-decoration: none;
+  &:hover {
+    color: #f2dede;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+}
+.footer-wrap-top{
+  width: 100%;
+  @media (max-width: 1180px) {
+    width:  1180px;
+  }
+  height: 260px;
+  padding-top: 40px;
+  border-bottom: 1px solid #222338;
+  .footer-container{
+    font-size: 14px;
+    line-height: 14px;
+    width: 1180px;
+    height: 260px;
+    margin: 0 auto;
+  }
+  .footer-wrap-col{
+    //width: 25%;
+    float: left;
+    //padding: 0 30px;
+    .footer-icon{
+      position: absolute;
+      left: -52px;
+      float: left;
+      margin-right:10px;
+    }
+    .footer-about-title{
+      position: relative;
+      font-size: 18px;
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      margin: 0;
+      text-align: left;
+    }
+    .footer-about-items{
+      font-size: 14px;
+      text-align: left;
+    }
+    .footer-introduction-text{
+      text-align: center;
+      margin-top: 20px;
+      line-height: 1.5em;
+    }
+    .footer-about-sdh{
+      clear: both;
+      margin-bottom: 44px;
+    }
+  }
+  .wrap-col-about{
+    margin: 0 120px 0 140px;
+  }
+  .wrap-col-guide{
+    margin-right: 180px;
+  }
+  .wrap-col-sdh{
+    margin-right: 120px;
+  }
+  .footer-introduction-qr{
+    margin-top: 30px;
+  }
+.footer-about-content-left{
+  width: 110px;
+  float: left;
+  text-align: left;
+  p{
+    margin: 20px 0;
+  }
+}
+  .footer-about-content-right{
+    float: left;
+    text-align: left;
+    p{
+      margin: 20px 0;
+    }
+  }
+  .footer-about-content{
+    text-align: left;
+    p{
+      margin: 20px 0;
+    }
+  }
+}
+.footer-wrap-bottom{
+  width: 100%;
+  @media (max-width: 1180px) {
+    width:  1180px;
+  }
+  height: 140px;
+  .footer-friend-link{
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #fff;
+  span,a{
+    margin-left: 25px;
+  }
+}
+  .footer-bottom-policy{
+    font-size: 14px;
+    color: #8a929f;
+  }
+}
+
+
+
+//个人中心左侧导航栏
+.personal-menu-wrap{
+  width:280px;
+  float: left;;
+  background-color: #fff;
+  .personal-menu{
+    border: 1px solid #e4e8ec;
+  }
+  .personal-menu-content{
+    padding: 0;
+    margin: 0;
+    li{
+      border-top: 1px solid #e4e8ec;
+      list-style: none;
+      text-align: left;
+      padding: 15px 0;
+      &:first-child{
+        border-top: none;
+        position: relative;
+        clear: both;
+        padding: 40px 10px 49px 120px;
+        .menu-content-box{
+          margin: 20px 0 10px 0;
+        }
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        &:hover {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+      .active{
+        color: #f63;
+        &:hover{
+          color: #f63;
+        }
+      }
+    }
+
+    .personal-photo-img{
+      position: absolute;
+      left: 20px;
+      width: 80px;
+      height: 80px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    .menu-content-name{
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .menu-content-vip{
+      color: #ffa332;
+      font-weight: bolder;
+      font-style: italic;
+    }
+    .menu-content-number{
+      float: left;
+      font-size: 12px;
+      color: #454d55;
+      span{
+      padding: 2px;
+      font-size: 12px;
+        line-height: 14px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #fca531;
+      color: #fff;
+      }
+    }
+    .menu-content-level{
+      float: left;
+      margin: 0 15px 0 0;
+      font-size: 12px;
+      padding: 0 5px;
+      background-color: #25b26e;
+      color: #fff;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+    }
+.menu-content-nl{
+  height: 20px;
+}
+    .personal-menu-item{
+      font-size: 14px;
+      line-height: 30px;
+      padding-left: 75px;
+      a{
+        display: block;
+        height: 30px;
+        color: #454d55;
+        &:hover{
+          color: #f63!important;
+          .personal-menu-img-active{
+            display: inline-block;
+          }
+          .personal-menu-img-gray{
+            display: none;
+          }
+        }
+      }
+      img{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+      .personal-menu-img-active{
+        display: none;
+      }
+      .personal-menu-img-gray{
+        display: inline-block;
+      }
+    }
+  }
+}
+
+//广告位
+.adv-wrap{
+  width: 100%;
+  height: 100px;
+  img{
+    width: 100%;
+  }
+}
+

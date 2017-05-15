@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>右侧悬浮栏</title>
+    <!--<link rel="stylesheet" href="http://static.171edu.com/17win/static/css/officialSidebar.css">-->
+    <link rel="stylesheet" href="../src/sidebar.css">
+    <!--<link rel="stylesheet" href="../src/index-main.css">-->
+</head>
+<body>
+<div  style="width: 1180px;height: 1200px;margin: 0 auto;background-color: #00B7FF"></div>
+<div id="official-sidebar">
+<div class="es-bar-win">
+<div class="right-sidebar-wrap-win">
+    <div class="right-sidebar-win">
+        <ul class="bar-menu-sns-win">
+
+            <li class="right-sidebar-item-win xn-btn-win" data-toggle="tooltip">
+                <a href="javascript:;">
+                <img src="http://static.171edu.com/17win/static/images/icon_right_service.png" alt="" class="sidebar-right-icon-win">
+                <span class="right-sidebar-text-win">在线客服</span>
+                </a>
+                <input type="hidden" id="official-right-username" value="soniacss"/>
+                <input type="hidden" id="official-right-mobile" value="11111"/>
+                <input type="hidden" id="official-right-vip" value="1"/>
+                <input type="hidden" id="official-right-areaCode" value="1"/>
+                <input type="hidden" id="official-right-program" value="1"/>
+            </li>
+            <script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+            <script type="text/javascript">
+                var obj = remote_ip_info;
+                var city = obj['city'];
+                var province = obj['province'];
+                if (city == '绍兴' || city == '深圳' || city == '厦门') {
+                    var area = city;
+                } else {
+                    var area = province;
+                }
+            </script>
+
+            <li class="popover-btn-box-win bar-phone-btn-win right-sidebar-item-win">
+                <a>
+                <img src="http://static.171edu.com/17win/static/images/icon_right_phone.png" alt="" class="sidebar-right-icon-win">
+                <span class="right-sidebar-text-win">客服电话</span>
+                </a>
+                <div class="box-arrow-win"></div>
+                <div class="box-arrow-box-win"></div>
+                <div class="popover-exactly-win">
+                    <div class="popover-item-content-win">
+                        <div class="item-content-box-win">
+                            <h3 class="phone-content-title-win">客服热线：</h3>
+                            <p class="phone-content-number-win">4007-171-171</p>
+                            <p class="phone-content-time-win">工作时间： 12:00-1:00</p>
+                            <h3 class="phone-content-title-win">投诉热线：</h3>
+                            <p class="phone-content-number-win">4007-171-171</p>
+                            <p class="phone-content-time-win">工作时间： 12:00-1:00</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="popover-btn-box-win bar-mobile-btn-win right-sidebar-item-win">
+                <a>
+                    <img src="http://static.171edu.com/17win/static/images/icon_right_mobile.png" alt="" class="sidebar-right-icon-win">
+                <span class="right-sidebar-text-win">下载APP</span>
+                </a>
+                <div class="box-arrow-win"></div>
+                <div class="box-arrow-box-win"></div>
+                <div class="popover-exactly-win" role="tooltip">
+                    <div class="popover-item-content-win">
+                <div class="item-img-center-win">
+                    <img width="110" class="img-responsive-qr-win" src="../src/img/img_right_qr.png" alt="">
+                    下载亿企赢APP
+                </div>
+                        </div>
+                    </div>
+
+            </li>
+            <li class="popover-btn-box-win bar-weixin-btn-win right-sidebar-item-win">
+                <a>
+                    <img src="http://static.171edu.com/17win/static/images/icon_right_weixin.png" alt="" class="sidebar-right-icon-win">
+                <span class="right-sidebar-text-win">关注微信</span>
+                </a>
+                <div class="box-arrow-win"></div>
+                <div class="box-arrow-box-win"></div>
+                <div class="popover-exactly-win" role="tooltip">
+                    <div class="popover-item-content-win">
+                <div class="item-img-center-win">
+                    <img width="110" class="img-responsive-qr-win" src="../src/img/img_right_qr.png" alt="">
+                    扫码关注
+                </div>
+                        </div>
+                    </div>
+            </li>
+            <li class="popover-btn-box-win right-sidebar-item-win">
+                <a>
+                    <img src="http://static.171edu.com/17win/static/images/icon_right_advice.png" alt="" class="sidebar-right-icon-win">
+                    <span class="right-sidebar-text-win advice-text-win">
+                        意见反馈
+                    </span>
+                </a>
+            </li>
+            <li class="go-top-win right-sidebar-item-win">
+                    <a href="javascript:;">
+                        <img src="http://static.171edu.com/17win/static/images/icon_right_gototop.png" alt="" class="sidebar-right-icon-win right-icon-gototop-win">
+                    <span class="right-sidebar-text-win goto-top-win">返回顶部</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</div>
+<div class="adv-modal advice-modal">
+    <div class="adv-modal-dialog">
+        <div class="adv-modal-content">
+            <div class="adv-modal-body">
+                <button type="button" class="ad-close">
+                    &times;
+                </button>
+                <h2 class="adv-modal-title">
+                    意见反馈
+                </h2>
+                <p class="adv-text-title">亲爱的用户：</p>
+                <p class="adv-text-content">您好，为了给您提供更好的服务，我们希望收集您在使用亿企赢官网时的看法或建议。对您的配合和支持表示衷心感谢！您也可以联系我们的热线40071-12315反馈意见。</p>
+                <form  action="#" class="yqy-advice">
+                    <textarea class="advice-content" onblur="" placeholder="用着不爽？在这里吐槽~~我们会根据您的意见建议不断优化，为您提供更好的产品与服务。"></textarea>
+                    <div class="sub-btn-box">
+                        <input type="submit" class="btn btn-primary btn-advice-submit" disabled="disabled" value="提交"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="../src/js/jquery-3.1.0.min.js"></script>
+<script src="http://static.171edu.com/17win/static/js/app/officialSidebar.js"></script>
+<!--<script src="../src/js/sidebar.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,13 @@
+$baseSize:12px;
+$baseColor:#333333;
+$baseFont:"Sakkal Majalla";
+body{
+  font-size:$baseSize;
+  color: $baseColor;
+  font-family: $baseFont;
+}
+p{
+  font-size: $baseFont;
+  color: $baseColor;
+  font-family: $baseFont;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>居中banner</title>
+    <link rel="stylesheet" href="../src/index-main.css">
+    <link rel="stylesheet" href="../src/bootstrap.min.css">
+</head>
+<body>
+<div style="width: 100%;height: 350px;"></div>
+<div class="container banner-side-wrap">
+
+    <div class="banner-information-panel-wrap">
+        <div class="banner-information-panel">
+            <h5 class="text-center">热点</h5>
+            <ul>
+                <li><span>这是一条咨询这是一条咨询这是一条咨询这是一条咨询这是一条咨询这是一条咨询</span></li>
+                <li><span>这是一条咨询这是一条咨询这是一条咨询这是一条咨询</span></li>
+                <li><span>这是一条咨询这是一条咨询这是一条咨询这是一条咨询</span></li>
+                <li><span>这是一条咨询这是一条咨询这是一条咨询这是一条咨询</span></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--{% if classroom|default('') %}-->
+    <div class="banner-carousel-panel-wrap">
+        <div class="banner-carousel-panel">
+            <h5 class="text-center">专家面授</h5>
+            <p class="carousel-img">
+                <img src="{{ filepath(classroom.middlePicture, 'classroom.png') }}">
+            </p>
+            <div class="carousel-title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题</div>
+            <p class="recommmom-result"><span>推荐：</span><!--{{ classroom.recommendReason|default('') }}--></p>
+            <p>
+                <span class="jion"><label class="total">123</label>人已参加</span>
+                <span class="price">￥12</span>
+            </p>
+            <div class="banner-carousel-panel-foot">
+                <a href="" class="detail">查看详情</a>
+                <!--<span class="i-jion disabled">暂无开课</span>-->
+                <a href="" class="i-jion">我要参加</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="../src/js/jquery-3.1.0.min.js"></script>
+<script src="../src/js/officialAbout.js"></script>
+</body>
+</html>
