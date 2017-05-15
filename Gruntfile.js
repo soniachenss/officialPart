@@ -32,7 +32,7 @@ module.exports = function (grunt) {
                     yuicompress: false
                 },
                 files: {
-                    "src/index-main.css": "src/index-main.less",
+                    "src/css/index-main.css": "src/less/index-main.less",
                 }
             }
             ,
@@ -42,7 +42,7 @@ module.exports = function (grunt) {
                     yuicompress: false
                 },
                 files: {
-                    "src/index-class.css": "src/index-class.less",
+                    "src/css/index-class.css": "src/less/index-class.less",
                 }
             }
             ,
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
                     yuicompress: false
                 },
                 files: {
-                    "src/official_about.css": "src/official_about.less",
+                    "src/css/official_about.css": "src/less/official_about.less",
                 }
             }
             ,
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
                     yuicompress: false
                 },
                 files: {
-                    "src/sidebar.css": "src/sidebar.less",
+                    "src/css/sidebar.css": "src/less/sidebar.less",
                 }
             }
             ,
@@ -72,7 +72,7 @@ module.exports = function (grunt) {
                     yuicompress: false
                 },
                 files: {
-                    "src/officialVIP.css": "src/officialVIP.less",
+                    "src/css/officialVIP.css": "src/less/officialVIP.less",
                 }
             }
         },
@@ -122,7 +122,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         //相对路径
-                        cwd: 'src/',
+                        cwd: 'src/css/',
                         src: '*.css',
                         dest: 'build/css/',
                         rename: function (dest, src) {
@@ -142,7 +142,7 @@ module.exports = function (grunt) {
 
         //css语法错误检查
         csslint:{
-            build:['Gruntfile.js','scr/*.css'],
+            build:['Gruntfile.js','scr/css/*.css'],
             options:{
                 csslintrc:'.csslintrc'
             }
@@ -159,7 +159,7 @@ module.exports = function (grunt) {
         //watch插件配置信息,启动后实时监听，实现自动化
         watch:{
             build:{
-                files:['src/*.less'],
+                files:['src/less/*.less'],
 //                tasks:['jshint','uglify'],
                 tasks:['less'],
                 options:{spawn:false}
